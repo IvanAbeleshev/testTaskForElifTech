@@ -1,0 +1,40 @@
+.rightPart{
+    flex:1;
+}
+
+.leftPart{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 100px;
+}
+
+.dataForm{
+    display: flex;
+    height: 70vh;
+    width: 100%;
+}
+
+.inputContainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 576px) { 
+    .dataForm{
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .leftPart{
+        padding-right: 0px;
+    }
+    
+}

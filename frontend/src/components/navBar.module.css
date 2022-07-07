@@ -1,0 +1,45 @@
+.container{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(blue, yellow);
+    border-radius: 15px;
+}
+
+.navList{
+    display: flex;
+    list-style-type: none;
+}
+
+.itemNav{
+    padding-left: 20px;
+}
+.itemNav:first-child{
+    padding-left: 0px;
+}
+
+.dataPages{
+    display: flex;   
+    padding: 20px 100px;
+}
+
+.activeLink{
+    font-size: 18px;
+    color:coral
+}
+
+@media (max-width: 920px) { 
+    .container{
+    padding: 2% 5%;
+    }
+    .dataPages{
+        padding: 2% 5%;
+    }
+}
+
+@media (max-width: 576px) { 
+    .dataPages{
+        flex-direction: column;
+    }
+}
+

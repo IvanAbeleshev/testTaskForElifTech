@@ -1,0 +1,17 @@
+.listGroupItem{
+    margin: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.listGroupItem:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: coral;
+}
+
+.listGroupItemActive{
+    background-color: coral;   
+}
